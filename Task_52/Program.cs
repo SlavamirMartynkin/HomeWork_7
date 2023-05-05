@@ -38,8 +38,8 @@ void SrAr(int[,] matr)
         {
             sum += matr[i,j];
         }
-        //double srar = sum / matr.GetLength(0);
-        System.Console.Write($"({Math.Round(sum / (double)matr.GetLength(0), 1)}) ");
+        double srar = sum / (double)matr.GetLength(0);
+        System.Console.Write($"({Math.Round(srar, 1)}) ");
     }
 }
 
